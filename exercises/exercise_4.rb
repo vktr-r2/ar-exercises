@@ -53,3 +53,10 @@ puts "Womens clothing stores selling less than 1mil"
 @womens_stores_under_1mil.each do |store|
   puts "Store: #{store.name}, Annual_rev: #{store.annual_revenue}"
 end
+
+
+# use Class.find_by(query: ) to store Richmond store in instance variable
+@store4 = Store.find_by(id: 4)
+
+# use Class.find_by(query: ) to store Richmond store in instance variable
+@store5 = Store.find_by(id: 5)
